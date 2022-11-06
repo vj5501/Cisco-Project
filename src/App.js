@@ -1,9 +1,10 @@
 import * as React from 'react'
-import { Routes, Route, NavLink, Navigate} from 'react-router-dom'
+import { Routes, Route, Navigate} from 'react-router-dom'
 import Home from './components/Home'
 import NavBar from './components/Navbar'
 import Team from './components/Team'
-import './styles.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (

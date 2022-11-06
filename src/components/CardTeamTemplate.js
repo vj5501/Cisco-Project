@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css'
 
 const CardTeamTemplate = ({image, sname, domain, github, linkedin, instagram}) =>{
     return(
