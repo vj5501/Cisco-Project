@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 
-const Tcd = ({image ="img.jpg", sname="Hello", domain="Nothing", github="Nothing", linkedin="Nothing", instagram="Nothing"}) =>{
+const Tcd = ({image, sname, domain, github, linkedin, instagram}) =>{
     return(
         <div className="member">
             <div className="member-img">
