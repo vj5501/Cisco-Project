@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 
-const Tcd = ({image, sname, domain, github, linkedin, instagram}) =>{
+const CardTeamTemplate = ({image, sname, domain, github, linkedin, instagram}) =>{
     return(
         <div className="member">
             <div className="member-img">
@@ -20,4 +20,4 @@ const Tcd = ({image, sname, domain, github, linkedin, instagram}) =>{
     )
 }
 
-export default Tcd;
+export default CardTeamTemplate;

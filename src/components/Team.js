@@ -1,10 +1,10 @@
 import React from 'react'
-import Tcard from './Tcard'
+import CardTeamSection from './CardTeamSection'
 
 function Team() {
   return (
     <div>
-      <Tcard/>
+      <CardTeamSection/>
     </div>
   )
 }
