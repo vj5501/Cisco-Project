@@ -1,6 +1,7 @@
 import React from 'react'
 import './style.css'
 import CardTeamTemplate from './CardTeamTemplate'
+import CardTeamTemplate2 from './CardTeamTemplate2'
 
 function CardTeamSection() {
     return (
@@ -76,10 +77,16 @@ function CardTeamSection() {
                             domain='Design Head' />
                     </div>
 
-                    <div className="col-lg-3 col-md-6">
-                        <CardTeamTemplate image='https://media-exp1.licdn.com/dms/image/D4D35AQGGmjP_1MrxQQ/profile-framedphoto-shrink_400_400/0/1660154004765?e=1668261600&v=beta&t=9cdOcmjNXMx7-CBTT4OtF30-GIElbrh3C5MuKf5wOFc'
+                      <div className="col-lg-3 col-md-6">
+                        <CardTeamTemplate2 image='https://media-exp1.licdn.com/dms/image/D4D35AQGGmjP_1MrxQQ/profile-framedphoto-shrink_400_400/0/1660154004765?e=1668261600&v=beta&t=9cdOcmjNXMx7-CBTT4OtF30-GIElbrh3C5MuKf5wOFc'
                             sname='Vishnu Jadhav'
-                            domain='Departmant Head' />
+                        domain='Departmant Head'
+                        github='https://github.com/pratikrk'
+                            linkedin='https://www.linkedin.com/in/pratik-rathod-10a522208/'
+                            instagram='https://www.instagram.com/pratik_rathod_1'
+                    
+                    />
+                    
                     </div>
 
                 </div>
