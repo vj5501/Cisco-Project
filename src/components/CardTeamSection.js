@@ -78,7 +78,7 @@ function CardTeamSection() {
 
                     <div className="col-lg-3 col-md-6">
                         <CardTeamTemplate3 image='https://media-exp1.licdn.com/dms/image/D5635AQGoYKAqVaqoIw/profile-framedphoto-shrink_400_400/0/1646627344319?e=1668232800&v=beta&t=KHWtJa16qZsY17cnscmgI47-k17yAvkCSdAZKVMVxyA'
-                            sname='Pratik Rathod'
+                            sname='Pratik'
                             domain='Publicity Head'
                             github='https://github.com/pratikrk'
                             linkedin='https://www.linkedin.com/in/pratik-rathod-10a522208/'
