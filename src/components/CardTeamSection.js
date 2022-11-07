@@ -2,6 +2,7 @@ import React from 'react'
 import './style.css'
 import CardTeamTemplate from './CardTeamTemplate'
 import CardTeamTemplate2 from './CardTeamTemplate2'
+import CardTeamTemplate3 from './CardTeamTemplate3'
 
 function CardTeamSection() {
     return (
@@ -54,10 +55,29 @@ function CardTeamSection() {
                             domain='Vice President' />
                     </div>
                 </div>
-
+                <br />
+                <br />
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        <CardTeamTemplate image='https://media-exp1.licdn.com/dms/image/D5635AQGoYKAqVaqoIw/profile-framedphoto-shrink_400_400/0/1646627344319?e=1668232800&v=beta&t=KHWtJa16qZsY17cnscmgI47-k17yAvkCSdAZKVMVxyA'
+                        <CardTeamTemplate3 image='https://media-exp1.licdn.com/dms/image/D5635AQGoYKAqVaqoIw/profile-framedphoto-shrink_400_400/0/1646627344319?e=1668232800&v=beta&t=KHWtJa16qZsY17cnscmgI47-k17yAvkCSdAZKVMVxyA'
+                            sname='Pratik Rathod'
+                            domain='Publicity Head'
+                            github='https://github.com/pratikrk'
+                            linkedin='https://www.linkedin.com/in/pratik-rathod-10a522208/'
+                            instagram='https://www.instagram.com/pratik_rathod_1' />
+                    </div>
+                    <div className="col-lg-3 col-md-6">
+                        <CardTeamTemplate2 image='https://media-exp1.licdn.com/dms/image/D4D35AQGGmjP_1MrxQQ/profile-framedphoto-shrink_400_400/0/1660154004765?e=1668261600&v=beta&t=9cdOcmjNXMx7-CBTT4OtF30-GIElbrh3C5MuKf5wOFc'
+                            sname='Vishnu Jadhav'
+                            domain='Departmant Head'
+                            github='https://github.com/pratikrk'
+                            linkedin='https://www.linkedin.com/in/pratik-rathod-10a522208/'
+                            instagram='https://www.instagram.com/pratik_rathod_1'
+                        />
+                    </div>
+
+                    <div className="col-lg-3 col-md-6">
+                        <CardTeamTemplate3 image='https://media-exp1.licdn.com/dms/image/D5635AQGoYKAqVaqoIw/profile-framedphoto-shrink_400_400/0/1646627344319?e=1668232800&v=beta&t=KHWtJa16qZsY17cnscmgI47-k17yAvkCSdAZKVMVxyA'
                             sname='Pratik Rathod'
                             domain='Publicity Head'
                             github='https://github.com/pratikrk'
@@ -66,27 +86,13 @@ function CardTeamSection() {
                     </div>
 
                     <div className="col-lg-3 col-md-6">
-                        <CardTeamTemplate image='https://media-exp1.licdn.com/dms/image/C4E03AQF2NbTe5H7pdg/profile-displayphoto-shrink_400_400/0/1629355938665?e=1672876800&v=beta&t=4MR7ykCuSpPAvXt1XzQaN5RgTvgdCsAnP9BQm8phfkI'
-                            sname='Tejaswini Bahir'
-                            domain='Industry Relation Head' />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6">
-                        <CardTeamTemplate image='https://media-exp1.licdn.com/dms/image/D4D35AQHjsLhoWMTlUw/profile-framedphoto-shrink_400_400/0/1665682548821?e=1668265200&v=beta&t=08YpV8ME9M3lwP-y2jMlNbvDFemRtwxDBy8T9CQ6Ye8'
-                            sname='Sayali Sonatakke'
-                            domain='Design Head' />
-                    </div>
-
-                      <div className="col-lg-3 col-md-6">
                         <CardTeamTemplate2 image='https://media-exp1.licdn.com/dms/image/D4D35AQGGmjP_1MrxQQ/profile-framedphoto-shrink_400_400/0/1660154004765?e=1668261600&v=beta&t=9cdOcmjNXMx7-CBTT4OtF30-GIElbrh3C5MuKf5wOFc'
                             sname='Vishnu Jadhav'
-                        domain='Departmant Head'
-                        github='https://github.com/pratikrk'
+                            domain='Departmant Head'
+                            github='https://github.com/pratikrk'
                             linkedin='https://www.linkedin.com/in/pratik-rathod-10a522208/'
                             instagram='https://www.instagram.com/pratik_rathod_1'
-                    
-                    />
-                    
+                        />
                     </div>
 
                 </div>
