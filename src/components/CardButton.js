@@ -32,6 +32,23 @@ const CardButton = () => (
                         </a>
                     </div>
                 </div>
+                <div className="card mb-5 col-md-6 col-lg-4 mb-4" style={{ width: "18rem" }}>
+                    <img
+                        src="https://images.pexels.com/photos/3530357/pexels-photo-3530357.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        className="card-img-top"
+                        alt="..."
+                    />
+                    <div className="card-body">
+                        <h5 className="card-title">Hello</h5>
+                        <p className="card-text">
+                            Some quick example text to build on the card title and make up the
+                            bulk of the card's content.
+                        </p>
+                        <a href="#contact" className="btn btn-success">
+                            Button
+                        </a>
+                    </div>
+                </div>
 
                 <div className="card col-md-6 col-lg-4 mb-5" style={{ width: "18rem" }}>
                     <div className="card-body">
